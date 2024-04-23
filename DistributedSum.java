@@ -37,3 +37,30 @@ public class DistributedSum {
 		MPI.Finalize();
 	}
 }
+
+
+
+/*
+
+
+2. Open terminal in home directory & type below command 
+
+sudo gedit ~/.bashrc
+
+3. Add below 2 lines in opened bash rc 
+
+export MPJ_HOME="/home/pvg/mpj-v0_44"
+
+export PATH=$MPJ_HOME/bin:$PATH
+
+
+4. Compile and run assignment 3 using below commands 
+
+javac -cp "/home/pvg/mpj-v0_44/lib/mpj.jar" DistributedSum.java
+
+
+mpjrun.sh -np 6 DistributedSum
+
+
+*/
+
